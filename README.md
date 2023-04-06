@@ -14,7 +14,7 @@ If you are Using **docker** and **docker-compose** please follow the steps.
 
 - Use the command line / terminal to run `source docker/.env`. This will include the MySQL env info in the terminal. This command needs to be run everytime when terminal is started. Please modify the **docker/.env** if required to suit your local env.
 - Then run command `docker-compose up`.
-- From the docker mac app open the laravel container's terminal and run command `composer install`.
+- From the docker mac app open the laravel container's terminal and run command `composer install`. This can be run from terminal if you have php and composer installed on your Mac.
 
 ![alt text](https://github.com/mediamerchants/laravel-backend-admin/blob/main/public/app/images/screenshot-composer-install.jpg)
 
@@ -35,7 +35,7 @@ If you are Using **docker** and **docker-compose** please follow the steps.
 
 - Use the command line / terminal to run `"docker/.env.bat"`. This will include the MySQL env info in the terminal. This command might need to be run everytime when terminal is started. Please modify the **docker/.env.bat** if required to suit your local env.
 - Then run command `docker-compose up`.
-- From the docker desktop open the laravel container's terminal and run command `composer install`.
+- From the docker desktop open the laravel container's terminal and run command `composer install`. This can be run from terminal if you have php and composer installed on your Windows.
 
 ![alt text](https://github.com/mediamerchants/laravel-backend-admin/blob/main/public/app/images/screenshot-composer-install.jpg)
 
