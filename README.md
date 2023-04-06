@@ -16,6 +16,8 @@ If you are Using **docker** and **docker-compose** please follow the steps.
 - Then run command `docker-compose up`.
 - From the docker mac app open the laravel container's terminal and run command `composer install`.
 
+![alt text](https://github.com/mediamerchants/laravel-backend-admin/blob/main/public/app/images/screenshot-composer-install.jpg)
+
 *Note:* The nginx config are configured to run at port 8088. This can be changed in **docker-compose.yml** and **.env**
 
 #### Valet+
@@ -34,6 +36,8 @@ If you are Using **docker** and **docker-compose** please follow the steps.
 - Use the command line / terminal to run `"docker/.env.bat"`. This will include the MySQL env info in the terminal. This command might need to be run everytime when terminal is started. Please modify the **docker/.env.bat** if required to suit your local env.
 - Then run command `docker-compose up`.
 - From the docker desktop open the laravel container's terminal and run command `composer install`.
+
+![alt text](https://github.com/mediamerchants/laravel-backend-admin/blob/main/public/app/images/screenshot-composer-install.jpg)
 
 
 *Note:* The nginx config are configured to run at port 8088. This can be changed in **docker-compose.yml** and **.env**
