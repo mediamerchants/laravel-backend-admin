@@ -12,10 +12,9 @@ This is a demo for laravel project which serves as backend admin admin with REST
 
 If you are Using **docker** and **docker-compose** please follow the steps.
 
-- Create a folder *dbdata* in root directory
-- Use the command line / terminal to run `source docker/.env`. This will include the MySQL env info in the terminal. This command needs to be run everytime when terminal is started. Alternatively it can be included in batch to be include by default. Please modify the **docker/.env** if required to suit your local env.
+- Use the command line / terminal to run `source docker/.env`. This will include the MySQL env info in the terminal. This command needs to be run everytime when terminal is started. Please modify the **docker/.env** if required to suit your local env.
 - Then run command `docker-compose up`.
-- Run command `composer install`
+- From the docker mac app open the laravel container's terminal and run command `composer install`.
 
 *Note:* The nginx config are configured to run at port 8088. This can be changed in **docker-compose.yml** and **.env**
 
@@ -30,4 +29,11 @@ When using valet plus, the configurations should set in **.env** in root folder.
 
 #### Windows
 
-coming soon... :)
+If you are Using **docker** and **docker-compose** please follow the steps.
+
+- Use the command line / terminal to run `"docker/.env.bat"`. This will include the MySQL env info in the terminal. This command might need to be run everytime when terminal is started. Please modify the **docker/.env.bat** if required to suit your local env.
+- Then run command `docker-compose up`.
+- From the docker desktop open the laravel container's terminal and run command `composer install`.
+
+
+*Note:* The nginx config are configured to run at port 8088. This can be changed in **docker-compose.yml** and **.env**
